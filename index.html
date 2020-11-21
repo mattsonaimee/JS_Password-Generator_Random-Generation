@@ -1,34 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+  <head> 
+      <!-- Start head tag -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Password Generator</title>
+    <title>Javascript Random User Password Generator</title>
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
-    <div class="wrapper">
+     <!--End head tag  -->
+
+  <mainbody>
+    <!--Start main body -->
+     <bodycontainer class="wrapper">
+
+        <!-- Start Header -->
       <header>
         <h1>Password Generator</h1>
       </header>
-      <div class="card">
-        <div class="card-header">
+        <!-- End Header -->
+
+
+      <!-- Start main card section -->
+
+      <maincardsection class="card">
+        <cardheader class="card-header">
           <h2>Generate a Password</h2>
-        </div>
-        <div class="card-body">
+        </cardheader>
+        <cardbody class="card-body">
+
+          <!-- Start user password input -->
+
           <textarea
             readonly
             id="password"
             placeholder="Your Secure Password"
             aria-label="Generated Password"
           ></textarea>
-        </div>
-        <div class="card-footer">
+          <!-- End user password input -->
+
+        </cardbody>
+          <!-- end main card section -->
+          
+         <!-- Start footer-->
+        <footer>
+        <footerbutton class="card-footer">
           <button id="generate" class="btn">Generate Password</button>
-        </div>
-      </div>
-    </div>
-    <script src="script.js"></script>
-  </body>
+        </footerbutton>
+      </footer>
+         <!-- End footer -->
+
+      </maincardsection>
+        <!-- End main card -->
+
+    </bodycontainer>
+    <script src="Assets\script.js"></script>
+
+  </mainbody body>
+  <!-- Body ends -->
 </html>
