@@ -7,3 +7,10 @@ HTML, CSS and JS files to create a random password. The user will be given a ser
 To Execute File:
 Open in browser
 
+
+
+Screenshot of browser:
+Found in assets folder. 
+
+Deployed website link:
+https://jinxdoll.github.io/JS_Password-Generator_Random-Generation/
