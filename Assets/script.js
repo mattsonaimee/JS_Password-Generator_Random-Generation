@@ -102,6 +102,4 @@ function generatePassword() {
     confirmUppercase = confirm("Will this contain uppercase letters?");
   };
 
-if {
-
-}
+//NEED TO FINISH CODE STARTONG HERE
