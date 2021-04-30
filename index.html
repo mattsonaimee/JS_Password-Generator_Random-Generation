@@ -1,61 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-
-  <head> 
-      <!-- Start head tag -->
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Javascript Random User Password Generator</title>
-    <link rel="stylesheet" href="style.css" />
+    <title>Password Generator</title>
+
+    <link rel="stylesheet" type="text/css" href="assets/style.css" />
   </head>
-     <!--End head tag  -->
 
-  <mainbody>
-    <!--Start main body -->
-     <bodycontainer class="wrapper">
-
-        <!-- Start Header -->
+  <body>
+    <div id="wrapper">
       <header>
         <h1>Password Generator</h1>
       </header>
-        <!-- End Header -->
 
+      <div id="content">
+        <h2>Generate a Password</h2>
+        <hr />
 
-      <!-- Start main card section -->
+        <textarea
+          readonly
+          id="password"
+          placeholder="Your Secure Password"
+          aria-label="Generated Password"
+        ></textarea>
+        <hr />
 
-      <maincardsection class="card">
-        <cardheader class="card-header">
-          <h2>Generate a Password</h2>
-        </cardheader>
-        <cardbody class="card-body">
+        <div id="btn">
+          <button id="generate">Generate Password</button>
 
-          <!-- Start user password input -->
-          <textarea
-            readonly
-            id="password"
-            placeholder="Your Secure Password"
-            aria-label="Generated Password"
-          ></textarea>
-          <!-- End user password input -->
+          <button id="copy">Copy to Clipboard</button>
+        </div>
+      </div>
+    </div>
 
-        </cardbody>
-          <!-- end main card section -->
-          
-         <!-- Start footer-->
-        <footer>
-        <footerbutton class="card-footer">
-          <button id="generate" class="btn">Generate Password</button>
-        </footerbutton>
-      </footer>
-         <!-- End footer -->
-
-      </maincardsection>
-        <!-- End main card -->
-
-    </bodycontainer>
-    <script src="Assets\script.js"></script>
-
-  </mainbody>
-  <!-- Body ends -->
+    <script src="./Assets/script.js"></script>
+  </body>
 </html>
